@@ -1,10 +1,11 @@
-package com.everis.alicante.courses.beca.java_.videogames.masterMind;
+package main.java.com.everis.alicante.courses.beca.java_.videogames.masterMind.domain;
 
 public class CheckResultNumber {
 
-	private int blackTab, whiteTab;
+	private int blackTab;
+	private int whiteTab;
 
-	public CheckResultNumber(int blackTab, int whiteTab) {
+	public CheckResultNumber(final int blackTab, final int whiteTab) {
 
 		this.blackTab = blackTab;
 		this.whiteTab = whiteTab;

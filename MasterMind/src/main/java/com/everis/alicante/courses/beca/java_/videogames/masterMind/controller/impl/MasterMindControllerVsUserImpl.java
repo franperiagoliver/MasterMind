@@ -1,6 +1,8 @@
-package com.everis.alicante.courses.beca.java_.videogames.masterMind;
+package main.java.com.everis.alicante.courses.beca.java_.videogames.masterMind.controller.impl;
 
 import java.util.Scanner;
+
+import main.java.com.everis.alicante.courses.beca.java_.videogames.masterMind.controller.MasterMindController;
 
 public class MasterMindControllerVsUserImpl extends MasterMindController {
 

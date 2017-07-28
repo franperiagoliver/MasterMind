@@ -1,8 +1,12 @@
-package com.everis.alicante.courses.beca.java_.videogames.masterMind;
+package main.java.com.everis.alicante.courses.beca.java_.videogames.masterMind.main.manager;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+
+import main.java.com.everis.alicante.courses.beca.java_.videogames.masterMind.controller.MasterMindController;
+import main.java.com.everis.alicante.courses.beca.java_.videogames.masterMind.controller.impl.MasterMindControllerVsUserImpl;
+import main.java.com.everis.alicante.courses.beca.java_.videogames.masterMind.domain.CheckResultNumber;
 
 public class MasterMindManager {
 
@@ -10,7 +14,7 @@ public class MasterMindManager {
 	private List<Integer> attemptedNumbers = new ArrayList<Integer>();
 	private Integer initialNumber;
 
-	MasterMindManager(Integer number) {
+	public MasterMindManager(Integer number) {
 
 		this.initialNumber = number;
 	}

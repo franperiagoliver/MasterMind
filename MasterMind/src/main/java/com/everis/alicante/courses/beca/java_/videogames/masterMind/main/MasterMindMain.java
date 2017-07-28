@@ -1,5 +1,8 @@
-package com.everis.alicante.courses.beca.java_.videogames.masterMind;
+package main.java.com.everis.alicante.courses.beca.java_.videogames.masterMind.main;
 
+import main.java.com.everis.alicante.courses.beca.java_.videogames.masterMind.controller.MasterMindController;
+import main.java.com.everis.alicante.courses.beca.java_.videogames.masterMind.controller.MasterMindControllerFactory;
+import main.java.com.everis.alicante.courses.beca.java_.videogames.masterMind.controller.impl.MasterMindControllerVsUserImpl;
 import mingorance.enrique.commandlinemenu.Menu;
 import mingorance.enrique.commandlinemenu.MenuBuilder;
 
