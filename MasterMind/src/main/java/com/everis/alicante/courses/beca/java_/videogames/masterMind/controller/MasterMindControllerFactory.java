@@ -5,6 +5,10 @@ import main.java.com.everis.alicante.courses.beca.java_.videogames.masterMind.co
 
 public class MasterMindControllerFactory {
 
+	private MasterMindControllerFactory() {
+
+	}
+
 	public static MasterMindController getInstance(final String menuOption) {
 		switch (menuOption) {
 		case "1.1":
